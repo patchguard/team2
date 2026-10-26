@@ -1,18 +1,20 @@
 -----------------------------------test step 1 start-------------------------------------------
-
+```bash
 git --version
 git clone https://github.com/patchguard/teamworktest.git
 cd teamworktest
 git status
 git branch --show-current
-
+```
 -----------------------------------test step 2 start-------------------------------------------
 
 {branchname} is not a fixed name, please use owned branchname such as hwd1234 or other branch name you like. Read Branch Naming Convention to have a good name.
 
+```bash
 git switch main
 git pull --ff-only origin main
 git switch -c {branchname}
+```
 
 -----------------------------------test step 3 start-------------------------------------------
 
@@ -20,9 +22,11 @@ git switch -c {branchname}
 
 {branchname} is not branch name, please use you owned branch created at step 2.
 
+```bash
 mkdir {dirname}
 cd {dirname}
 echo "test" > README.md
 git add README.md
 git commit -m "docs: clarify contribution workflow"
 git push -u origin {branchname}
+```
