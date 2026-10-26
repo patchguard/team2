@@ -8,7 +8,8 @@ git branch --show-current
 ```
 -----------------------------------test step 2 start-------------------------------------------
 
-{branchname} is not a fixed name, please use owned branchname such as hwd1234 or other branch name you like. Read Branch Naming Convention to have a good name.
+{branchname} is not a fixed name, please use owned branchname such as hwd1234 or other branch name you like. 
+Each developer should use a separate branch for each task.
 
 ```bash
 git switch main
