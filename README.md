@@ -1,8 +1,8 @@
 -----------------------------------test step 1 start-------------------------------------------
 ```bash
 git --version
-git clone https://github.com/patchguard/teamworktest.git
-cd teamworktest
+git clone https://github.com/patchguard/team2.git
+cd team2
 git status
 git branch --show-current
 ```
